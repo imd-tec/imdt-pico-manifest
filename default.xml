@@ -11,6 +11,7 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="imdt" fetch="ssh://git@github.com/imd-tec"/>
 
   <default sync-j="2"/>
 
@@ -33,4 +34,7 @@
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="a00af3eae082b772469d9dd21b2371dd4d237684"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="00f81fbdf7fba2a09ff83d14fc3b040e9ae63b42"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="14c5392fded42f17962e1cc07fcc0446881b4fa0"/>
+
+  <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
+  </project>
 </manifest>
