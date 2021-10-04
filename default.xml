@@ -36,5 +36,7 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="14c5392fded42f17962e1cc07fcc0446881b4fa0"/>
 
   <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
+    <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
+    <linkfile src="README-PICOEVK-BSP.md" dest="README-IMDT.md"/>
   </project>
 </manifest>
