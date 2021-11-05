@@ -8,10 +8,10 @@ $ chmod a+x ~/bin/repo
 $ PATH=${PATH}:~/bin
 ```
 
-To create a working environment:
+To create a working environment for the latest release:
 ```sh
 $ mkdir <working directory>
 $ cd <working directory>
-$ repo init -u git@github.com:imd-tec/imdt-picoevk-manifest.git -b imdt-linux-hardknott
+$ repo init -u git@github.com:imd-tec/imdt-picoevk-manifest.git -b imdt-linux-hardknott -m imdt-pico-bsp-v0.1.0.xml
 $ repo sync
 ```
