@@ -1,4 +1,4 @@
-# IMD Technologies PicoEVK Board Support Package
+# IMD Technologies Pico Board Support Package
 
 To use this manifest, you must first install the `repo` tool:
 ```sh
@@ -12,6 +12,6 @@ To create a working environment for the latest release:
 ```sh
 $ mkdir <working directory>
 $ cd <working directory>
-$ repo init -u git@github.com:imd-tec/imdt-picoevk-manifest.git -b imdt-linux-hardknott -m imdt-pico-bsp-v0.1.0.xml
+$ repo init -u git@github.com:imd-tec/imdt-pico-manifest.git -b imdt-linux-hardknott -m imdt-pico-bsp-v0.1.0.xml
 $ repo sync
 ```
