@@ -15,6 +15,7 @@
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="imdt" fetch="ssh://git@github.com/imd-tec"/>
+  <remote name="sbabic" fetch="https://github.com/sbabic"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3" upstream="hardknott">
     <linkfile dest="README" src="README"/>
@@ -38,6 +39,8 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="93bf122d77e77aac1a917865538df84f148a8fcc" upstream="gatesgarth"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
+
+  <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="hardknott"/>
 
   <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
     <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
