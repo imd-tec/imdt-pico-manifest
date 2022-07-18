@@ -14,7 +14,7 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-  <remote name="imdt" fetch="ssh://git@github.com/imd-tec"/>
+  <remote name="imdt" fetch="https://github.com/imd-tec"/>
   <remote name="sbabic" fetch="https://github.com/sbabic"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3" upstream="hardknott">

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <include name="default.xml" />
-    <project name="meta-imdt-imx-dev" path="sources/meta-imdt-imx-dev" remote="imdt" revision="hardknott"/>
+
+    <remote name="imdt-internal" fetch="ssh://git@github.com/imd-tec"/>
+
+    <extend-project name="meta-imdt-imx" remote="imdt-internal"/>
+
+    <project name="meta-imdt-imx-dev" path="sources/meta-imdt-imx-dev" remote="imdt-internal" revision="hardknott"/>
 </manifest>

@@ -14,7 +14,7 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-  <remote name="imdt" fetch="ssh://git@github.com/imd-tec"/>
+  <remote name="imdt" fetch="https://github.com/imd-tec"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3" upstream="hardknott">
     <linkfile dest="README" src="README"/>
@@ -39,7 +39,7 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
 
-  <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="420a528febe859876b5d3859a2c0fabbb70d0bbb">
+  <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="f2aab2461b54c028eb62ab6ac4c4b526fb0e180d">
     <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
     <linkfile src="README-PICOEVK-BSP.md" dest="README-IMDT.md"/>
   </project>

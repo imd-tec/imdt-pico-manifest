@@ -12,6 +12,6 @@ To create a working environment for the latest release:
 ```sh
 $ mkdir <working directory>
 $ cd <working directory>
-$ repo init -u git@github.com:imd-tec/imdt-pico-manifest.git -b imdt-linux-hardknott -m imdt-pico-bsp-v0.1.0.xml
+$ repo init -u https://github.com/imd-tec/imdt-pico-manifest.git -b imdt-linux-hardknott -m imdt-pico-bsp-v1.0.0.xml
 $ repo sync
 ```
