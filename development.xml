@@ -4,7 +4,12 @@
 
     <remote name="imdt-internal" fetch="ssh://git@github.com/imd-tec"/>
 
-    <extend-project name="meta-imdt-imx" remote="imdt-internal"/>
+    <remove-project name="meta-imdt-imx"/>
 
-    <project name="meta-imdt-imx-dev" path="sources/meta-imdt-imx-dev" remote="imdt-internal" revision="hardknott"/>
+    <project name="meta-imdt-imx-dev" path="sources/meta-imdt-imx" remote="imdt-internal" revision="hardknott">
+        <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
+        <linkfile src="README-PICO-BSP.md" dest="README-PICO-BSP.md"/>
+    </project>
+
+    <project name="meta-imdt-imx-internal" path="sources/meta-imdt-imx-internal" remote="imdt-internal" revision="hardknott"/>
 </manifest>
