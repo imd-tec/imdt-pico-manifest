@@ -44,6 +44,6 @@
 
   <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
     <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
-    <linkfile src="README-PICOEVK-BSP.md" dest="README-IMDT.md"/>
+    <linkfile src="README-PICO-BSP.md" dest="README-IMDT.md"/>
   </project>
 </manifest>
