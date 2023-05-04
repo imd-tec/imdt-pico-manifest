@@ -27,7 +27,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="f8150f3b37cb83cba1f9e2378e57bb63e02d4610" upstream="hardknott"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="e6daa26ba1f748326546063d63a085ae671827d9" upstream="hardknott"/>
 
-  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="cc4c2d1c845b48fdec989f089aee3c13d2b1e15b" upstream="hardknott-5.10.72-2.2.0">
+  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="8a9d2bbc7751071e9add04287564bf45bc5f7488" upstream="hardknott-5.10.72-2.2.0">
 
     <linkfile src="README" dest="README-IMXBSP"/>
   </project>
