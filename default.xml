@@ -16,6 +16,7 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="imdt" fetch="https://github.com/imd-tec"/>
   <remote name="sbabic" fetch="https://github.com/sbabic"/>
+  <remote name="murata" fetch="https://github.com/murata-wireless"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3" upstream="hardknott">
     <linkfile dest="README" src="README"/>
@@ -41,7 +42,7 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
 
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="hardknott"/>
-
+  <project name="meta-murata-wireless"  path="sources/meta-murata-wireless" remote="murata" revision="d63a33652b7aca2a14a502833bdd229a975dffa4" upstream="imx-hardknott-5-10-72"/>
   <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
     <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
     <linkfile src="README-PICO-BSP.md" dest="README-IMDT.md"/>
