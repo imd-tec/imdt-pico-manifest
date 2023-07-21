@@ -18,7 +18,7 @@
   <remote name="sbabic" fetch="https://github.com/sbabic"/>
   <remote name="hailo" fetch="https://github.com/hailo-ai"/>
   <remote name="murata" fetch="https://github.com/murata-wireless"/>
-
+    
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3" upstream="hardknott">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
@@ -41,12 +41,12 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="93bf122d77e77aac1a917865538df84f148a8fcc" upstream="gatesgarth"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
- 
- <!-- meta-swupdate 85dd34243d92a33a6ff9215245565f3a5dd4cc99 HardKnott May 2022 -->
+  
+<!-- meta-swupdate 85dd34243d92a33a6ff9215245565f3a5dd4cc99 HardKnott May 2022 -->
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="85dd34243d92a33a6ff9215245565f3a5dd4cc99" upstream="hardknott"/>
   <project name="meta-murata-wireless"  path="sources/meta-murata-wireless" remote="murata" revision="145129dccef830d467b155a24ab7ff644b91a316"/>
   <project name="meta-hailo-imdt" path="sources/meta-hailo" remote="imdt" revision="3d1ac180ce765652a33bd66e711d850d99e9625d" upstream="hardknott-imdt"/>
-  <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="hardknott">
+  <project name="meta-imdt-imx" path="sources/meta-imdt-imx" remote="imdt" revision="7a92e045f7388c244d953e2b57292cd9643f4ef1">
     <linkfile src="tools/imdt-setup-environment" dest="imdt-setup-environment"/>
     <linkfile src="README-PICO-BSP.md" dest="README-IMDT.md"/>
   </project>
