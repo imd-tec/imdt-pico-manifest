@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest name="BSP-dev" version="2.2.0">
     <include name="default.xml" />
 
     <remote name="imdt-internal" fetch="ssh://git@github.com/imd-tec"/>
